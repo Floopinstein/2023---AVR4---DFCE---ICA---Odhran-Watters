@@ -4,9 +4,16 @@ using UnityEngine.AI;
 public class PlayerController : MonoBehaviour
 {
  
+ Animator animator;
+ public bool IsMoving = false;
+
  public NavMeshAgent agent;
  public Camera PlayerCamera;
 
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -21,8 +28,27 @@ public class PlayerController : MonoBehaviour
             //If players clicks on a suitable location, set as the characters destination
             if (Physics.Raycast(MouseRay, out hit)){
                 agent.SetDestination(hit.point);
+
+                IsMoving = true;
             }
         }
+
+              if (agent.remainingDistance <= 0.05)
+            {
+                IsMoving = false;
+            }
+
+
+        if (IsMoving == true)
+        {
+            animator.SetBool("IsWalking", true);
+        }
+
+        if (IsMoving == false)
+        {
+            animator.SetBool("IsWalking", false);
+        }
+
     }
 
 

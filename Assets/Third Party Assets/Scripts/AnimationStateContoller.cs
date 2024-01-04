@@ -1,3 +1,8 @@
+/*
+--------------------------------------------------------------------------------------------------------------------------------
+THIS WAS THE ORIGINAL CODE FOR CONTROLING THE CHARACTER ANIMATIONS BUT I FOUND A BETTER WAY INSIDE THE PLAYER CONTROLLER SCRIPT
+--------------------------------------------------------------------------------------------------------------------------------
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -38,3 +43,4 @@ public class AnimationStateContoller : MonoBehaviour
 
     }
 }
+*/
