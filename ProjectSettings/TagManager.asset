@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Clickable
   - Cliackable2
+  - Medicine
+  - Cartography
+  - Pots
+  - Food
+  - Clothes
   layers:
   - Default
   - TransparentFX
