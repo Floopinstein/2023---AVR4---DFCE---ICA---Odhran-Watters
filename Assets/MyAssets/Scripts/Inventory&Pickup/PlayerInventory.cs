@@ -9,6 +9,5 @@ public class PlayerInventory : MonoBehaviour
     public bool HasItem2 = false;
     public bool HasItem3 = false;
     public bool HasItem4 = false;
-    public bool HasItem5 = false;
 
 }

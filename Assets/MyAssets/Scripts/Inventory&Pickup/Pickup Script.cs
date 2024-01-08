@@ -24,7 +24,7 @@ public class PickupScript : MonoBehaviour
             UnityEngine.Object.Destroy(this.gameObject);
             }
 
-        if(gameObject.tag.Equals("Clothes"))
+        if(gameObject.tag.Equals("Water"))
             {
             PlayerInventory.HasItem2 = true; 
             ItemCrossout.SetActive(true);
@@ -38,16 +38,9 @@ public class PickupScript : MonoBehaviour
             UnityEngine.Object.Destroy(this.gameObject);
             }
 
-        if(gameObject.tag.Equals("Cartography"))
-            {
-            PlayerInventory.HasItem4 = true;
-            ItemCrossout.SetActive(true);
-            UnityEngine.Object.Destroy(this.gameObject);
-            }
-
         if(gameObject.tag.Equals("Pots"))
             {
-            PlayerInventory.HasItem5 = true;
+            PlayerInventory.HasItem4 = true;
             ItemCrossout.SetActive(true);
             UnityEngine.Object.Destroy(this.gameObject);
             }

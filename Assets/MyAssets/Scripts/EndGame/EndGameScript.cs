@@ -10,7 +10,7 @@ public class EndGameScript : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(PlayerInventory.HasItem1 == true && PlayerInventory.HasItem2 == true && PlayerInventory.HasItem3 == true && PlayerInventory.HasItem4 == true && PlayerInventory.HasItem5 == true)
+        if(PlayerInventory.HasItem1 == true && PlayerInventory.HasItem2 == true && PlayerInventory.HasItem3 == true && PlayerInventory.HasItem4 == true)
         {
 
             print("GameEnd");
@@ -19,13 +19,6 @@ public class EndGameScript : MonoBehaviour
         }
 
     }
-
-    public void QuitGame()
-    {
-        //Closes the game
-        Application.Quit();
-    }
-
 
 
 }
