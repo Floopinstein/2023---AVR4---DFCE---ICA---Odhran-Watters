@@ -10555,8 +10555,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Provide feedback at the end of the game on what has been learned and what
-    \r\nneeds to be repeated, explored, or developed further.\n"
+  m_text: 'This game teaches users about sailing during the 1400s showing the kinds
+    of supplies they would need to bring on their treacherous journeys.
+
+
+    I would
+    liked to have more items and have a sort of learning experience play into collecting
+    them like having to answer question about them before you could take them.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10796,7 +10803,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1718376782
 RectTransform:
   m_ObjectHideFlags: 0
